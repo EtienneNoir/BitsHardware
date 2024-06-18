@@ -1,0 +1,16 @@
+
+
+
+#quantity{
+
+    height: 25px;
+    width: 25px;
+    background-color: transparent;
+    border-radius: 50%;
+    display: inline-block;
+    color:#fb8f41;
+    text-align:center;
+    margin: auto;
+    font-weight: bold;
+
+}

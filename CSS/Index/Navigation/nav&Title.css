@@ -1,0 +1,97 @@
+
+#title{
+
+    text-align: center;
+    color: whitesmoke;
+
+}
+
+
+
+#nav ul{
+    list-style: none; /* Getting rid of the list item */
+    display: flex; /* converting the elements inside the ul component into boxes that are arranged horizontally */
+    align-items: baseline;/* The flex box items are arranged vertically */ 
+    
+}
+
+#nav li{
+    
+    margin: auto; /* Creating space around the li elements which are now boxes and then put them at the center*/  
+}
+
+#nav a{
+
+    text-decoration: none; /* getting rid of any decoration added to the text such as the underline   */
+    color: whitesmoke;
+
+}
+
+#nav a:hover,
+#nav a:active {
+    color: #818181;
+}
+
+#headerCart{
+
+    margin:auto;
+}
+
+
+/* For the drop down search button */
+#dropdown {
+    position: relative;
+    display: inline-block;
+    }
+      
+.dropdown-content {
+    display: none;
+    opacity: 0.9;
+    position: absolute;
+    background-color:black;
+    border-radius: 15px;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 12px 16px;
+    z-index: 1;
+}
+
+#dropdown:hover .dropdown-content {
+    display: block;
+}
+
+
+
+.glowEffect {
+    width: 220px;
+    height: 50px;
+    border: none;
+    outline: none;
+    color: #fff;
+    background: #111;
+    cursor: pointer;
+    position: relative;
+    z-index: 0;
+    border-radius: 10px;
+}
+
+#SearchField{
+
+    
+    height: 45px; 
+    width: 210px; 
+    border-radius: 15px;
+    text-align: center;
+
+}
+
+
+/* Drop down menu for profile :*/
+
+.Log{
+    padding-top: 10px;
+    text-decoration: none;
+    color:whitesmoke;
+}
+
+
