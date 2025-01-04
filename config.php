@@ -3,10 +3,10 @@
 
     function OpenConnection(){ // Function to Open a connection, when called will will other return connection or error
  
-        $dbhost = "sql7.freesqldatabase.com";
-        $dbuser = "sql7714312";
-        $dbpass = "BptCpEjRRw";
-        $db = "sql7714312";
+        $dbhost = "sql2.freesqldatabase.com";
+        $dbuser = "sql12755760";
+        $dbpass = "GvmVV2YSYC";
+        $db = "sql12755760";
         $conn = new mysqli($dbhost, $dbuser, $dbpass,$db) or die("Failed to connect to database". $conn -> error); //Attempting to Connect to the database with the specified credentials or return the die message in the form of an error 
 
         
